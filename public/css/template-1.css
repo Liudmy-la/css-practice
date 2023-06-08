@@ -10,6 +10,7 @@
 
 .header {
 	padding:24px;
+	border-bottom: 1px solid #DEE2E6;
 }
 
 .logo {
@@ -60,6 +61,8 @@
 
 .footer {
 	padding:24px 0;
+	border-top: 1px solid #DEE2E6;
+
 }
 
 .footer_copyright {
@@ -93,6 +96,8 @@
 	text-align: center;
 	max-width: 585px;
 	margin: 0 auto;
+
+	line-height: 200%;
 }
 
 .plans_card:not(:last-of-type) {
@@ -126,6 +131,10 @@
 .card_price_duration {
 	font-size: 29px;
 	color: #6C757D;
+
+	/* vertical-align: sub; */
+	/* vertical-align: -12px; */
+	vertical-align: -15%;
 }
 
 .card_description_item {
@@ -145,3 +154,55 @@
 	font-size: 19px;
 	padding: 9px;
 }
+
+.card_button:hover {
+	cursor: grabbing;
+}
+
+.card {
+	border-right: 1px solid blue;
+	border-radius: 0px 20px 20px 20px;
+
+	box-shadow: 10px 10px 10px 5px rgba(48, 183, 236, 0.411);
+}
+
+.card:hover {
+	outline: 3px dotted green;
+	outline-offset: 5px;
+
+	cursor: grab;
+}
+
+h1 {
+	text-shadow: 10px -30px 10px rgba(48, 155, 123, 0.836);
+}
+
+.plans_card:nth-child(2) > .card {
+	background: peachpuff;
+}
+
+.plans_card:nth-child(2) {
+	/* display: none; */
+	/* visibility: hidden; */
+	visibility: collapse;
+}
+
+p {
+	background-color: grey;
+	width: 150px;
+
+	/* 
+	height: 100px;
+
+	overflow: hidden;
+
+	text-overflow: ellipsis; */
+	/* (з'являться "..." коли є цілі слова чи числа, що не переносяться і не вміщаються) */
+
+	/* white-space: pre; */
+	/* white-space: pre-wrap; */
+
+	overflow: auto;
+	resize: both;
+}
+
