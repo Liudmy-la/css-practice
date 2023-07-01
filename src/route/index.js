@@ -18,6 +18,21 @@ router.get('/', function (req, res) {
 
 // ================================================================
 
+router.get('/slack', function (req, res) {
+  // res.render генерує нам HTML сторінку
+
+  //            ↙ cюди вводимо назву файлу з сontainer
+  res.render('slack', {
+    layout: null,
+    page: {
+      title: 'Slack - Welcome Page',
+    },
+  })
+  //                  ↑↑ сюди вводимо JSON дані
+})
+
+// ================================================================
+
 router.get('/selector', function (req, res) {
   // res.render генерує нам HTML сторінку
 
