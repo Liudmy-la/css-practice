@@ -100,28 +100,122 @@
 						</div>
 
 					</section>
-				</div>
+				
+					<section class="stat__block">
+						<div class="box vertical">
+							<div class="text--heading divider">Purchase list</div>
+							<div class="stat--list vertical divider">
+								<div class="vertical vertical--small">
+									<div class="stat-type">ID437661</div>
+									<div class="stat-info">May 11, 2023, 14:21</div>
+								</div>
+								<div class="vertical vertical--small">
+									<div class="stat-type">AirOn ProCam</div>
+									<div class="stat-info">7/8 USB Type-C</div>
+								</div>
+								<div class="vertical vertical--small">
+									<div class="stat-type">132.32 EUR</div>
+									<div class="stat-info color--warn">Not paid</div>
+								</div>
+								<div class="vertical vertical--small">
+									<div class="stat-type">Customer</div>
+									<div class="stat-info">robin@com.de</div>
+								</div>
+							</div>
+							
+							<div class="stat--list vertical">
+								<div class="vertical vertical--small">
+									<div class="stat-type">ID437660</div>
+									<div class="stat-info">May 11, 2023, 13:20</div>
+								</div>
+								<div class="vertical vertical--small">
+									<div class="stat-type">PHILIPS Essential</div>
+									<div class="stat-info">HD9200/90</div>
+								</div>
+								<div class="vertical vertical--small">
+									<div class="stat-type">543 USD</div>
+									<div class="stat-info text--success">Pay by Stripe</div>
+								</div>
+								<div class="vertical vertical--small">
+									<div class="stat-type">Customer</div>
+									<div class="stat-info">dima@com.ua</div>
+								</div>
+							</div>
+						</div>
 
-				<div class="layout">
-					<section class="stat">
+						<div class="box vertical">
+							<div class="text--heading divider">Payment</div>
+							<div class="stat--radio">
+								<div class="radio__item">
+									<span class="icon radio__icon radio__icon--active"></span>
+									<span class="radio__text">Credit card</span>
+								</div>
+								<div class="radio__item">
+									<span class="icon radio__icon"></span>
+									<span class="radio__text">Debit card</span>
+								</div>
+								<div class="radio__item">
+									<span class="icon radio__icon"></span>
+									<span class="radio__text">PayPal</span>
+								</div>
+							</div>
 
+							<div class="stat--data">
+								<div class="vertical vertical--form">
+									<label for="input1">Name on card</label>
+									<input type="text"  name="l" id="input1" class="field field--data text--small">
+								</div>
+								<div class="vertical vertical--form">
+									<label for="input2">Credit card number</label>
+									<input type="text"  name="2" id="input2" class="field field--data text--small">
+								</div>
+							</div>
 
-						
-					{{!-- <div class="field field--select relative">
-						<span class="">Choose...</span>
-						<span class="icon select--icon-check" style="background-image: url('/svg/dashboard/marker.svg');"></span>
-						<select name="" id="" class="field__select">
-							<option value="1">01</option>
-							<option value="2">02</option>
-							<option value="3">03</option>
-						</select> --}}
-						
+							<div class="stat--data divider">
+								<div class="vertical vertical--form">
+									<label for="input3">Expiration</label>
+									<input type="text"  name="3" id="input3" class="field field--data text--small">
+								</div>
+								<div class="vertical vertical--form">
+									<label for="input4">CVV</label>
+									<input type="text"  name="4" id="input4" class="field field--data text--small">
+								</div>
+							</div>
+
+							<div class="stat--data divider">
+								<div class="vertical vertical--form">
+									<label for="select1">Country</label>
+									<div class="field field--select relative">
+										<span class="">Choose...</span>
+										<span class="icon select--icon-check" 
+											style="background-image: url('/svg/dashboard/marker.svg');"></span>
+										<select name="1" id="select1" class="field__select text--small">
+											<option value="1">01</option>
+											<option value="2">02</option>
+											<option value="3">03</option>
+										</select>
+									</div>
+								</div>
+								<div class="vertical vertical--form">
+									<label for="select2">State</label>
+									<div class="field field--select relative">
+										<span class="">Choose...</span>
+										<span class="icon select--icon-check" 
+											style="background-image: url('/svg/dashboard/marker.svg');"></span>
+										<select name="2" id="select2" class="field__select text--small">
+											<option value="1">001</option>
+											<option value="2">002</option>
+											<option value="3">003</option>
+										</select>
+									</div>
+								</div>
+							</div>
+
+							<div class="nav-button nav-button--active click text--light text--center">Continue to checkout</div>
+						</div>
 					</section>
-				</div>
-
-				</div>
+				</div>				
 			</main>
-		</div>
-		
+		</div>		
 	</body>
 </html>
